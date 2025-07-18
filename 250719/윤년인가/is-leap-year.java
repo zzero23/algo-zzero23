@@ -9,10 +9,10 @@ public class Main {
 
         // 조건문
         if (numY % 4 == 0) {
-            if (numY % 100 != 0 && numY % 400 != 0) {
-                System.out.println("true");
-            } else {
+            if (numY % 100 == 0 && numY % 400 != 0) {
                 System.out.println("false");
+            } else {
+                System.out.println("true");
             }
         } else {
             System.out.println("false");
