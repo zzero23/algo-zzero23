@@ -1,11 +1,9 @@
-intN = int(input())
-
-# 반복 및 조건문
-while intN != 25 :
+while True :
     intN = int(input())
     if intN < 25 :
-        print("Lower")
-    else :
         print("Higher")
-if intN == 25 :
-    print("Good")
+    elif intN > 25 :
+        print("Lower")
+    else:
+        print("Good")
+        break
